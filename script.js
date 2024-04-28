@@ -32,20 +32,22 @@ function signup() {
 function login() {
     var username = document.getElementById("loginUsername").value;
     var password = document.getElementById("loginPassword").value;
-    /*var storedUsername = localStorage.setItem("username",username);
-    var storedPassword = localStorage.setItem("password",password);*/
     var storedUsername = localStorage.getItem("username",username);
     var storedPassword = localStorage.getItem("password",password);
-
-   /* var a,b;
-    a="jasleenkaur11rps@gmail.com";
-    b="123456";*/
-    
     if (username == storedUsername && password == storedPassword) {
       window.location.href = "newpage.html";
     } else {
       alert("Invalid e-mail or password!");
     }
 }
-
-/* document.getElementById("login").addEventListener("submit", login); */
+function updateBid(item) {
+    event.preventDefault();
+    const bidInput = document.getElementById(`bidInput${item}`);
+    const currentBidElement = document.getElementById(`currentBid${item}`);
+    const currentBid = parseFloat(currentBidElement.innerText.replace("Rs ", ""));
+    const newBid = parseFloat(bidInput.value);
+    if (newBid > currentBid) {
+        currentBidElement.innerText = "Rs " + newBid;
+        bidInput.value = '';
+    }
+}
