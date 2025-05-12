@@ -1,4 +1,4 @@
-E-Bidding Platform
+## **E-Bidding Platform**
 
 The E-Bidding Platform is a comprehensive online auction system that enables users to participate in secure, real-time bidding for products and services. It is designed to provide a seamless user experience while maintaining transparency and fairness in the bidding process.
 
