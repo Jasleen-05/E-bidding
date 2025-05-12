@@ -2,13 +2,13 @@ E-Bidding Platform
 
 The E-Bidding Platform is a comprehensive online auction system that enables users to participate in secure, real-time bidding for products and services. It is designed to provide a seamless user experience while maintaining transparency and fairness in the bidding process.
 
-## 🚀 Features
+🚀 Features
 
 1. User Registration and Authentication: Secure user registration and login system with email verification.
 2. Product Listings:  Buyers can see products with images, descriptions, and starting bids.
 3. Real-Time Bidding: Bidders can place bids in real-time, with instant updates on the current highest bid.
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 
 * Frontend: HTML, CSS
 * Backend: JavaScript
@@ -36,13 +36,12 @@ The E-Bidding Platform is a comprehensive online auction system that enables use
    npm start
    ```
 
-## ✅ Usage
+✅ Usage
 
 * Register or login as a user.
 * Browse available products for bidding.
 * Place bids.
-
-
+  
 📧 Contact
 
 For queries, contact jasleenkaur11rps@gmail.com
